@@ -134,6 +134,7 @@ button {
   align-items: center;
   /* position: relative; */
   cursor: url('HAND_WHITE_CUSOR.cur'),auto;
+  outline:none;
 }
 
 .forfix{
