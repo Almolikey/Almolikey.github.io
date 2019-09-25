@@ -60,7 +60,7 @@ body{
 .user_info h2{
   margin-top:70px;
 }
-#fixinput{
+.fixinput{
   margin-top: 10px;
   padding: 5px;
   margin-bottom: 10px;
@@ -134,6 +134,7 @@ button {
   align-items: center;
   /* position: relative; */
   cursor: url('HAND_WHITE_CUSOR.cur'),auto;
+  outline:none;
 }
 
 .forfix{
@@ -196,7 +197,22 @@ button img{
   margin-left: 0px;
   font-weight: bold;
 cursor: url('HAND_WHITE_CUSOR.cur'),auto;
+border-radius:3px;
+outline: none;
   }
+  #login:hover{
+    width:40%;
+    color: white;
+   align-items: center;
+    background-color: rgb(159, 15, 196);
+    padding:10px;
+    margin-right:30%;
+    margin-left: 30%;
+    font-weight: bold;
+    border-radius: 25px;
+  cursor: url('HAND_WHITE_CUSOR.cur'),auto;
+  outline:none;
+    }
   .contact i{
     font-size:24px;
     margin:10px;
